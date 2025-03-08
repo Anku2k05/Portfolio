@@ -6,6 +6,8 @@
     <title>Ankita's Website</title>
     <meta name="description" content="Personal profile page of Ankita">
     <link rel="icon" href="./asset/img/icons8-lotus-ios-17-filled-96.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
 </head>
 <body>
     <Center>
@@ -23,17 +25,13 @@
     </section>
     <section>
         <h2>Skills Section</h2>
-        <table align="center">
-            <tr>
-                <td>
-                    <ol>
-                        <li>Web Development</li>
-                        <li>DSA using C</li>
-                        <li>Communication skills</li>
-                    </ol>
-                </td>
-            </tr>
-        </table>
+        <div class="skills-list"> 
+            <ul>
+                <li>Web Development</li>
+                <li>DSA using C</li>
+                <li>Communication skills</li>
+            </ul>
+        </div>
     </section>
     <hr>
     <section>
@@ -42,10 +40,29 @@
     </section>
     <hr>
     <section>
-        <h2>Project section</h2>
-        <p>Take a look at some of my projects</p>
+        <h2>Achievement section</h2>
+        <p>Take a look at some of my certificates</p>
+        <p><a href="certificates.html">My Certificates and credentials</a></p>
         
     </section>
+    <hr>
+    <section>
+        <h2>Conatct Me</h2>
+        <form method="post">
+            <label for="Name">Name:</label>
+            <input type="text" id="Name" name="Name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Message:</label>
+            <textarea placeholder="Type your message" name="message" id="message"></textarea><br><br>
+            <button type="submit">Submit</button>
+         </form>
+        
+    </section>
+    <hr>
+    <footer>
+        <p>&copy; 2025 Ankita's Portfolio</p>
+    </footer>
     </center>
 
     
